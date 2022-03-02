@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             dataGridView1.Rows.Clear();
             dataGridView2.Rows.Clear();
             foreach (Class1 worker in workers)
-                if ( 2022 - Convert.ToInt32(worker.year) >= 5)
+                if (2022 - Convert.ToInt32(worker.year) >= 5)
                     res.Add(worker);
                 
             foreach (Class1 worker in res)
